@@ -1,4 +1,4 @@
-# Summary of the creating react typescript application
+# Summary of the React Typescript Application creation
 
 To work in react application, you need install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/).
 

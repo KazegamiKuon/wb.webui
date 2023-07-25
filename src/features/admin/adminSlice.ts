@@ -19,7 +19,7 @@ const initialState: AdminState = {
     products: [],
   },
 };
-const adminSlice = createSlice({
+export const adminSlice = createSlice({
   name: "adminState",
   initialState: initialState,
   reducers: {
@@ -71,7 +71,7 @@ export const productsSelector = createSelector(
   (data) => data
 );
 export const productLoadingSelector = createSelector(
-  (state: RootState) => state.adminState.productState.isLoading,
+  (state: AdminState) => state.productState.isLoading,
   (data) => data
 );
 //reducer
